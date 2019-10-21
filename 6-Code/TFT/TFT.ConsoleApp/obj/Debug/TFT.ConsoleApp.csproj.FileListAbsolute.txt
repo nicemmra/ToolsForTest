@@ -1,0 +1,7 @@
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.ConsoleApp\bin\Debug\TFT.ConsoleApp.exe.config
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.ConsoleApp\bin\Debug\TFT.ConsoleApp.exe
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.ConsoleApp\bin\Debug\TFT.ConsoleApp.pdb
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.ConsoleApp\obj\Debug\TFT.ConsoleApp.csproj.CoreCompileInputs.cache
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.ConsoleApp\obj\Debug\TFT.ConsoleApp.exe
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.ConsoleApp\obj\Debug\TFT.ConsoleApp.pdb
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.ConsoleApp\obj\Debug\TFT.ConsoleApp.csprojAssemblyReference.cache

@@ -1,0 +1,6 @@
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.DataServer\bin\Debug\TFT.DataServer.dll
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.DataServer\bin\Debug\TFT.DataServer.pdb
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.DataServer\obj\Debug\TFT.DataServer.csprojAssemblyReference.cache
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.DataServer\obj\Debug\TFT.DataServer.csproj.CoreCompileInputs.cache
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.DataServer\obj\Debug\TFT.DataServer.dll
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.DataServer\obj\Debug\TFT.DataServer.pdb

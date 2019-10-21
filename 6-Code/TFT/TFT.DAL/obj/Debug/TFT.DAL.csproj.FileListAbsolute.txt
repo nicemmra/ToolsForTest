@@ -1,0 +1,6 @@
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.DAL\bin\Debug\TFT.DAL.dll
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.DAL\bin\Debug\TFT.DAL.pdb
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.DAL\obj\Debug\TFT.DAL.csprojAssemblyReference.cache
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.DAL\obj\Debug\TFT.DAL.csproj.CoreCompileInputs.cache
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.DAL\obj\Debug\TFT.DAL.dll
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.DAL\obj\Debug\TFT.DAL.pdb

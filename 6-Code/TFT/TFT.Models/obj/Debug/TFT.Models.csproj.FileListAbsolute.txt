@@ -1,0 +1,6 @@
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.Models\bin\Debug\TFT.Models.dll
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.Models\bin\Debug\TFT.Models.pdb
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.Models\obj\Debug\TFT.Models.csprojAssemblyReference.cache
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.Models\obj\Debug\TFT.Models.csproj.CoreCompileInputs.cache
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.Models\obj\Debug\TFT.Models.dll
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.Models\obj\Debug\TFT.Models.pdb
