@@ -42,6 +42,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerialPortBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TFT.DAL\TFT.DAL.csproj">
+      <Project>{43fadb8d-a9a1-48ff-a973-4a8e2590db93}</Project>
+      <Name>TFT.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TFT.Models\TFT.Models.csproj">
+      <Project>{467720c4-ce70-4601-b1f6-a719530cdb37}</Project>
+      <Name>TFT.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

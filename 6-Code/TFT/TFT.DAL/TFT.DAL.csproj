@@ -42,6 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerialPortDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TFT.DataServer\TFT.DataServer.csproj">
+      <Project>{4c2d40e4-3f20-4c49-9da4-e5fbbedb77fb}</Project>
+      <Name>TFT.DataServer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TFT.UI", "TFT.UI", "{FAE432
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFT.DataServer", "TFT.DataServer\TFT.DataServer.csproj", "{4C2D40E4-3F20-4C49-9DA4-E5FBBEDB77FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFT.ConsoleApp", "TFT.ConsoleApp\TFT.ConsoleApp.csproj", "{2D77808A-A09B-413D-A84F-533B07CA0583}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPortTest", "SerialPortTest\SerialPortTest.csproj", "{1C66AFB2-7114-4D9F-B959-0FB26F68D377}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,16 +37,16 @@ Global
 		{4C2D40E4-3F20-4C49-9DA4-E5FBBEDB77FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C2D40E4-3F20-4C49-9DA4-E5FBBEDB77FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C2D40E4-3F20-4C49-9DA4-E5FBBEDB77FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D77808A-A09B-413D-A84F-533B07CA0583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D77808A-A09B-413D-A84F-533B07CA0583}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D77808A-A09B-413D-A84F-533B07CA0583}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D77808A-A09B-413D-A84F-533B07CA0583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C66AFB2-7114-4D9F-B959-0FB26F68D377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C66AFB2-7114-4D9F-B959-0FB26F68D377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C66AFB2-7114-4D9F-B959-0FB26F68D377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C66AFB2-7114-4D9F-B959-0FB26F68D377}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{2D77808A-A09B-413D-A84F-533B07CA0583} = {FAE43207-6802-42E4-9FA5-A631912982F6}
+		{1C66AFB2-7114-4D9F-B959-0FB26F68D377} = {FAE43207-6802-42E4-9FA5-A631912982F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {300936B3-243B-44C3-9EA0-6228937DB569}

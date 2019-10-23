@@ -4,3 +4,10 @@ D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.BLL\obj\Debug\TFT.BLL.csprojAssemblyR
 D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.BLL\obj\Debug\TFT.BLL.csproj.CoreCompileInputs.cache
 D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.BLL\obj\Debug\TFT.BLL.dll
 D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.BLL\obj\Debug\TFT.BLL.pdb
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.BLL\bin\Debug\TFT.DAL.dll
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.BLL\bin\Debug\TFT.Models.dll
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.BLL\bin\Debug\TFT.DAL.pdb
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.BLL\bin\Debug\TFT.Models.pdb
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.BLL\obj\Debug\TFT.BLL.csproj.CopyComplete
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.BLL\bin\Debug\TFT.DataServer.dll
+D:\gitProjects\ToolsForTest\6-Code\TFT\TFT.BLL\bin\Debug\TFT.DataServer.pdb
