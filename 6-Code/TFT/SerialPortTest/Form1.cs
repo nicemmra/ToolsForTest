@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO.Ports;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,7 +25,8 @@ namespace SerialPortTest
 
         private void frmSerialPortTest_Load(object sender, EventArgs e)
         {
-
+            string[] portNames = SerialPort.GetPortNames();
+            txtPortName.Text = portNames[0];
         }
 
         private void btnOpenConnect_Click(object sender, EventArgs e)

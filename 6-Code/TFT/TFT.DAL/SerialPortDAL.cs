@@ -34,7 +34,7 @@ namespace TFT.DAL
 
         public void Write(string str)
         {
-            dataServer.Write(str);
+            dataServer.SendData(str);
         }
     }
 }
