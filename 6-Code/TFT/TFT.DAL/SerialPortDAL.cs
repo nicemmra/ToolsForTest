@@ -32,9 +32,14 @@ namespace TFT.DAL
             dataServer.OpenConnect();
         }
 
-        public void Write(string str)
+        public void SendData(string str)
         {
             dataServer.SendData(str);
+        }
+
+        public void CloseConnect()
+        {
+            dataServer.CloseConnect();
         }
     }
 }

@@ -32,9 +32,14 @@ namespace TFT.BLL
             serialPortDAL.OpenConnect();
         }
 
-        public void Write(string str)
+        public void SendData(string str)
         {
-            serialPortDAL.Write(str);
+            serialPortDAL.SendData(str);
+        }
+
+        public void CloseConnect()
+        {
+            serialPortDAL.CloseConnect();
         }
     }
 }

@@ -34,50 +34,51 @@
             this.rtxtSendCommand = new System.Windows.Forms.RichTextBox();
             this.btnSendCommand = new System.Windows.Forms.Button();
             this.btnOpenConnect = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtPortName
             // 
-            this.txtPortName.Location = new System.Drawing.Point(25, 23);
-            this.txtPortName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPortName.Location = new System.Drawing.Point(33, 29);
+            this.txtPortName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPortName.Name = "txtPortName";
-            this.txtPortName.Size = new System.Drawing.Size(109, 21);
+            this.txtPortName.Size = new System.Drawing.Size(144, 25);
             this.txtPortName.TabIndex = 0;
             this.txtPortName.Text = "com3";
             // 
             // txtBaudRate
             // 
-            this.txtBaudRate.Location = new System.Drawing.Point(166, 23);
-            this.txtBaudRate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBaudRate.Location = new System.Drawing.Point(221, 29);
+            this.txtBaudRate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBaudRate.Name = "txtBaudRate";
-            this.txtBaudRate.Size = new System.Drawing.Size(115, 21);
+            this.txtBaudRate.Size = new System.Drawing.Size(152, 25);
             this.txtBaudRate.TabIndex = 0;
             this.txtBaudRate.Text = "115200";
             // 
             // rtxtReceiveData
             // 
-            this.rtxtReceiveData.Location = new System.Drawing.Point(25, 48);
-            this.rtxtReceiveData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rtxtReceiveData.Location = new System.Drawing.Point(33, 60);
+            this.rtxtReceiveData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rtxtReceiveData.Name = "rtxtReceiveData";
-            this.rtxtReceiveData.Size = new System.Drawing.Size(343, 141);
+            this.rtxtReceiveData.Size = new System.Drawing.Size(757, 263);
             this.rtxtReceiveData.TabIndex = 2;
             this.rtxtReceiveData.Text = "";
             // 
             // rtxtSendCommand
             // 
-            this.rtxtSendCommand.Location = new System.Drawing.Point(25, 193);
-            this.rtxtSendCommand.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rtxtSendCommand.Location = new System.Drawing.Point(33, 340);
+            this.rtxtSendCommand.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rtxtSendCommand.Name = "rtxtSendCommand";
-            this.rtxtSendCommand.Size = new System.Drawing.Size(268, 35);
+            this.rtxtSendCommand.Size = new System.Drawing.Size(677, 92);
             this.rtxtSendCommand.TabIndex = 2;
             this.rtxtSendCommand.Text = "";
             // 
             // btnSendCommand
             // 
-            this.btnSendCommand.Location = new System.Drawing.Point(310, 193);
-            this.btnSendCommand.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSendCommand.Location = new System.Drawing.Point(717, 340);
+            this.btnSendCommand.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSendCommand.Name = "btnSendCommand";
-            this.btnSendCommand.Size = new System.Drawing.Size(56, 34);
+            this.btnSendCommand.Size = new System.Drawing.Size(75, 92);
             this.btnSendCommand.TabIndex = 1;
             this.btnSendCommand.Text = "发送";
             this.btnSendCommand.UseVisualStyleBackColor = true;
@@ -85,27 +86,39 @@
             // 
             // btnOpenConnect
             // 
-            this.btnOpenConnect.Location = new System.Drawing.Point(299, 22);
-            this.btnOpenConnect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOpenConnect.Location = new System.Drawing.Point(399, 28);
+            this.btnOpenConnect.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOpenConnect.Name = "btnOpenConnect";
-            this.btnOpenConnect.Size = new System.Drawing.Size(67, 22);
+            this.btnOpenConnect.Size = new System.Drawing.Size(89, 28);
             this.btnOpenConnect.TabIndex = 1;
             this.btnOpenConnect.Text = "打开串口";
             this.btnOpenConnect.UseVisualStyleBackColor = true;
             this.btnOpenConnect.Click += new System.EventHandler(this.btnOpenConnect_Click);
             // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(511, 28);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(89, 28);
+            this.btnClose.TabIndex = 1;
+            this.btnClose.Text = "关闭串口";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // frmSerialPortTest
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(728, 376);
+            this.ClientSize = new System.Drawing.Size(820, 470);
             this.Controls.Add(this.rtxtSendCommand);
             this.Controls.Add(this.rtxtReceiveData);
             this.Controls.Add(this.btnSendCommand);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnOpenConnect);
             this.Controls.Add(this.txtBaudRate);
             this.Controls.Add(this.txtPortName);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmSerialPortTest";
             this.Text = "串口测试";
             this.Load += new System.EventHandler(this.frmSerialPortTest_Load);
@@ -122,6 +135,7 @@
         private System.Windows.Forms.RichTextBox rtxtSendCommand;
         private System.Windows.Forms.Button btnSendCommand;
         private System.Windows.Forms.Button btnOpenConnect;
+        private System.Windows.Forms.Button btnClose;
     }
 }
 

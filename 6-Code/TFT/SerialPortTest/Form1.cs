@@ -34,8 +34,8 @@ namespace SerialPortTest
             string portName = txtPortName.Text;
             int baudRate = int.Parse(txtBaudRate.Text);
             serialPortBLL = new SerialPortBLL(portName, baudRate);
-            serialPortBLL.OpenConnect();
             serialPortBLL.AntDataReceivedBLL += SerialPortBLL_AntDataReceivedBLL;
+            serialPortBLL.OpenConnect();
         }
 
         private void SerialPortBLL_AntDataReceivedBLL(string obj)
@@ -45,12 +45,18 @@ namespace SerialPortTest
             //this.Invoke(() => rtxtReceiveData.AppendText(obj));
             //Invoke((MethodInvoker)(() => { rtxtReceiveData.AppendText(obj); }));
             rtxtReceiveData.AppendText(obj);
+            rtxtReceiveData.ScrollToCaret();
         }
 
         private void btnSendCommand_Click(object sender, EventArgs e)
         {
             string str = rtxtSendCommand.Text;
-            serialPortBLL.Write(str);
+            serialPortBLL.SendData(str);
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            serialPortBLL.CloseConnect();
         }
     }
 }
